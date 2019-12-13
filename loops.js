@@ -22,8 +22,8 @@ function doWhileLoop(num) {
   i = i + 1;
   return i;
 }
-console.log ("I run once regardless.")
-do {
+
+do {console.log ("I run once regardless.")
   "I run once regardless.";
 } while (incrementVariable() < num)
 }
